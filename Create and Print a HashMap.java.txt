@@ -1,0 +1,25 @@
+import java.util.HashMap;
+
+public class CreateHashMap {
+
+    public static void main(String[] args){
+
+        System.out.println("**** Students information ****"+"\n");
+
+
+        HashMap<String, Integer> studentMap = new HashMap<>();
+
+        studentMap.put("Ahmed", 1235332);
+        studentMap.put("Noor", 7745453);
+        studentMap.put("John", 4656544);
+        studentMap.put("Tom", 43646564);
+        studentMap.put("Alex", 453634456);
+
+
+        System.out.println("All student information in class A: "+studentMap);
+
+
+    }
+
+
+}
